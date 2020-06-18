@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		return "<div style=\"font-size: 1.5rem; background-color: black;\">Greetings from Spring Boot!</div>"; // hmm would be better to send html document.
 	}
 
 }
